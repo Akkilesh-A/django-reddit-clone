@@ -1,0 +1,47 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Environment variables and virtual environments
+.env
+*.env
+venv/
+env/
+.venv/
+.envrc
+.Python
+
+# Django-related files
+db.sqlite3
+*.log
+/media/
+staticfiles/
+static/
+*.sqlite3
+
+# IDE-related files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Byte-compiled or optimized Python code
+*.py[cod]
+
+# Testing
+.coverage
+.tox/
+.pytest_cache/
+
+# Other
+*.egg
+*.egg-info/
+dist/
+build/
